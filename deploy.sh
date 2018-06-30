@@ -1,6 +1,6 @@
 #!/bin/bash
-echo $1
-git status
+echo "committing to git with following message: " $1
+
 git add .
 git status
 git commit -m $1
